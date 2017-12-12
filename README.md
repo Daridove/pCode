@@ -1,0 +1,1 @@
+This the GIT repository for storing my trial program. The purpose for the repository is to store the codes developed in different languages (and accordingly sorted in different folders) and perform version control on them. 
