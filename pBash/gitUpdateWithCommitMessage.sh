@@ -5,8 +5,7 @@ if [ "$1" == "" ]; then
  echo "You have entered no commit message, so using default message"
  git commit -m "automatic git update"
 else
-  "$1" input_message
-  git commit -m "$input_message"
+ git commit -m "$1"
 fi
-git github push --all
+git push github --all
 echo "git push Done!"
