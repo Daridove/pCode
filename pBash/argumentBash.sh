@@ -7,5 +7,6 @@ else
   echo "Positional parameter 1 is empty"
 fi
 if [ "$1" != "" ]; then 
-  echo "What you enteres is" $1
+  cat $1 > in_m
+  echo "What you enteres is" $in_m 
 fi
